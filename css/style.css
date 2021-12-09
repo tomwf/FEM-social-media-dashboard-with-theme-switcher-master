@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+/********** Colors **********/
+/********** Primary **********/
+/********** Dark Theme **********/
+/********** Light Theme **********/
+/********** Neutral **********/
+/********** Dark Theme **********/
+/********** Light Theme **********/
+:root {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */
