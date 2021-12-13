@@ -72,6 +72,7 @@ const Overview = () => (
   <StyledOverview>
     {data.map(item => (
       <Details
+        className='card'
         key={item.id}
         title={item.title}
         social={item.social}

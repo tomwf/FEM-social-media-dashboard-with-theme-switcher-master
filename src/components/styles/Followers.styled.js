@@ -14,7 +14,6 @@ const StyledFollowers = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 1.5em;
-    //background-color: ${theme.colors.lightGrayishBlueCardBg};
     padding: 2em;
   }
 
@@ -26,7 +25,6 @@ const StyledFollowers = styled.div`
 
   div > div:first-child > a {
     font-weight: 700;
-    color: ${theme.colors.darkGrayishBlueText};
   }
 
   div > div:nth-child(2) {
@@ -38,11 +36,11 @@ const StyledFollowers = styled.div`
   div > div:nth-child(2) > span:first-child {
     font-size: 4rem;
     font-weight: 700;
+    color: ${props => props.theme.titleColor};
   }
 
   div > div:nth-child(2) > span:last-child {
     letter-spacing: 4px;
-    color: ${theme.colors.desaturatedBlueText};
   }
 
   div > div:last-child {
@@ -54,14 +52,6 @@ const StyledFollowers = styled.div`
 
   p {
     font-weight: 700;
-  }
-
-  .up {
-    color: ${theme.colors.limeGreen}
-  }
-
-  .down {
-    color: ${theme.colors.brightRed};
   }
 `
 

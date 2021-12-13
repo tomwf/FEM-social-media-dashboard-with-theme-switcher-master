@@ -5,13 +5,16 @@ import Subtitle from './Subtitle'
 import theme from '../theme/theme'
 import ToggleButton from './ToggleButton'
 
-const ThemeToggle = () => {
+const ThemeToggle = ({ toggleTheme, isDarkTheme }) => {
   const [state, setState] = useState({ value: false });
 
   return (
     <StyledThemeToggle>
       <Subtitle text='Dark Mode' />
-      <ToggleButton />
+      <ToggleButton
+        toggleTheme={toggleTheme}
+        isDarkTheme={isDarkTheme}
+      />
     </StyledThemeToggle>
   )
 }

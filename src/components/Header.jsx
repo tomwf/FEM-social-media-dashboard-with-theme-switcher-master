@@ -6,17 +6,19 @@ import Subtitle from '../components/Subtitle'
 import HorizontalLine from '../components/HorizontalLine'
 import ThemeToggle from '../components/ThemeToggle'
 
-const Header = ({ toggleTheme }) => {
+const Header = ({ toggleTheme, isDarkTheme }) => {
   const [theme, setTheme] = useState()
 
   return (
     <StyledHeader>
-      <Title text="Social Media Dashboard" />
-      <Subtitle text="Total Followers: 23,004" />
+      <div>
+        <Title text="Social Media Dashboard" />
+        <Subtitle text="Total Followers: 23,004" />
+      </div>
       <HorizontalLine />
-      <ThemeToggle toggleTheme={toggleTheme}/>
+      <ThemeToggle toggleTheme={toggleTheme} isDarkTheme={isDarkTheme}/>
     </StyledHeader>
   )
 }
 
-  export default Header
+export default Header

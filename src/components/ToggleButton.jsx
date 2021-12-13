@@ -1,11 +1,10 @@
 import StyledToggleButton from './styles/ToggleButton.styled'
 
-const ToggleButton = () => (
-  <StyledToggleButton>
-    <label>
-      <input type="checkbox" />
-      <span></span>
-    </label>
+const ToggleButton = ({ toggleTheme, isDarkTheme }) => (
+  <StyledToggleButton
+    onClick={toggleTheme}
+  >
+    <span className={isDarkTheme ? 'dark' : ''}></span>
   </StyledToggleButton>
 )
 

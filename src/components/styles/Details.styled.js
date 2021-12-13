@@ -25,6 +25,7 @@ const StyledDetails = styled.div`
   div:last-child > span:first-child {
     font-size: 2.5rem;
     font-weight: 700;
+    color: ${props => props.theme.titleColor};
   }
 
   div:last-child > div {
@@ -36,15 +37,6 @@ const StyledDetails = styled.div`
   div:last-child > div > span {
     font-weight: 700;
   }
-
-  .up {
-    color: ${theme.colors.limeGreen}
-  }
-
-  .down {
-    color: ${theme.colors.brightRed};
-  }
-
 `
 
 export default StyledDetails
