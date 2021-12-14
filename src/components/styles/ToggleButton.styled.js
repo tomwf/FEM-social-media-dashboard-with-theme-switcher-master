@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import theme, { darkTheme } from '../../theme/theme'
+import themes from '../../theme/theme'
 
 const StyledToggleButton = styled.button`
-  background-color: ${theme.colors.toggleLight};
-  background: ${props => props.theme.toggleBtnColor}};
+  background-color: ${themes.light.toggleBtnColor};
+  background: ${({theme}) => theme.toggleBtnColor}};
   position: relative;
   display: flex;
   align-items: center;
@@ -13,7 +13,7 @@ const StyledToggleButton = styled.button`
   border-radius: 2em;
 
   :hover {
-    background: ${darkTheme.toggleBtnColor};
+    background: ${themes.dark.toggleBtnColor};
   }
 
   span.dark {
@@ -24,7 +24,7 @@ const StyledToggleButton = styled.button`
     display: block;
     height: 18px;
     width: 18px;
-    background-color: ${theme.colors.whiteBg};
+    background-color: ${themes.colors.whiteBg};
     border-radius: 50%;
     transform: translateX(-4px);
     transition: .4s;

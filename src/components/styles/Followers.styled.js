@@ -36,7 +36,7 @@ const StyledFollowers = styled.div`
   div > div:nth-child(2) > span:first-child {
     font-size: 4rem;
     font-weight: 700;
-    color: ${props => props.theme.titleColor};
+    color: ${({theme}) => theme.titleColor};
   }
 
   div > div:nth-child(2) > span:last-child {

@@ -22,7 +22,7 @@ const StyledDetails = styled.div`
   div:last-child > span:first-child {
     font-size: 2.5rem;
     font-weight: 700;
-    color: ${props => props.theme.titleColor};
+    color: ${({theme}) => theme.titleColor};
   }
 
   div:last-child > div {

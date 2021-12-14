@@ -31,8 +31,10 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: ${props => props.theme.bodyBg};
-    color: ${props => props.theme.textColor};
+    //background-color: ${props => props.theme.bodyBg};
+    background-color: ${({theme}) => theme.bodyBg};
+    //color: ${props => props.theme.textColor};
+    color: ${({theme}) => theme.textColor};
   }
 
   main {
@@ -44,7 +46,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .bg {
-    background-color: ${props => props.theme.topBgPattern};
+    background-color: ${({theme}) => theme.topBgPattern};
     position: absolute;
     top: 0;
     width: 100%;
@@ -59,7 +61,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .card {
-    background-color: ${props => props.theme.cardBg};
+    background-color: ${({theme}) => theme.cardBg};
     transition: .2s;
     width: 100%;
     max-width: 285px;
@@ -67,7 +69,7 @@ const GlobalStyles = createGlobalStyle`
 
   .card:hover {
     cursor: pointer;
-    background-color: ${props => props.theme.cardBgHover}
+    background-color: ${({theme}) => theme.cardBgHover}
   }
 
 
