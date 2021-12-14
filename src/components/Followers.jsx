@@ -31,6 +31,7 @@ const Followers = ({
             src={icon[social]}
             width={20}
             height={20}
+            alt={`${social} icon`}
           />
           <a href="">{account}</a>
         </div>
@@ -42,6 +43,7 @@ const Followers = ({
           <Image
             layout='fixed'
             src={upDown === 'up' ? iconUp : iconDown}
+            alt={`${upDown} icon`}
           />
           <p className={upDown}><span>{today}</span> Today</p>
         </div>

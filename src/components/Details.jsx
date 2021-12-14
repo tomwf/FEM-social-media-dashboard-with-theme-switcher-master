@@ -10,7 +10,7 @@ import youtube from '../../public/images/icon-youtube.svg'
 
 import Subtitle from './Subtitle'
 
-const Details = ({ title, social, figure, percent, updown }) => {
+const Details = ({ title, social, figure, percent, upDown }) => {
   const icon = {
     facebook: facebook,
     twitter: twitter,
@@ -24,15 +24,17 @@ const Details = ({ title, social, figure, percent, updown }) => {
         <Subtitle text={title} />
         <Image
           src={icon[social]}
+          alt={`${social} icon`}
         />
       </div>
       <div>
         <span>{figure}</span>
         <div>
           <Image
-            src={updown === 'up' ? iconUp : iconDown}
+            src={upDown === 'up' ? iconUp : iconDown}
+            alt={`${upDown} icon`}
           />
-          <span className={updown}>{percent}%</span>
+          <span className={upDown}>{percent}%</span>
         </div>
       </div>
     </StyledDetails>
