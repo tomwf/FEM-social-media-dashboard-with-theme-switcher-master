@@ -20,7 +20,7 @@ export default function Home() {
       <footer>
         <div className='attribution'>
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
-          Coded by <a href="#">Tomwf</a>.
+          Coded by <a href="https://github.com/tomwf/FEM-social-media-dashboard-with-theme-switcher-master">Tomwf</a>.
         </div>
       </footer>
     </>
