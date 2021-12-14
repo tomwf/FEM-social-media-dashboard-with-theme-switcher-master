@@ -35,7 +35,7 @@ Users should be able to:
 ![](./public/screenshot_mobile_light.png)
 
 #### Mobile Version - Dark Theme
-![](./public/screenshot_desktop_dark.png)
+![](./public/screenshot_mobile_dark.png)
 
 ### Links
 
