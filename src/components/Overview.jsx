@@ -8,7 +8,7 @@ const data = [
     social: 'facebook',
     figure: 87,
     percent: 3,
-    updown: 'up'
+    upDown: 'up'
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const data = [
     social: 'facebook',
     figure: 52,
     percent: 2,
-    updown: 'down'
+    upDown: 'down'
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const data = [
     social: 'instagram',
     figure: 5462,
     percent: 2257,
-    updown: 'up'
+    upDown: 'up'
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const data = [
     social: 'instagram',
     figure: 52000,
     percent: 1375,
-    updown: 'up'
+    upDown: 'up'
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const data = [
     social: 'twitter',
     figure: 117,
     percent: 303,
-    updown: 'up'
+    upDown: 'up'
   },
   {
     id: 6,
@@ -48,7 +48,7 @@ const data = [
     social: 'twitter',
     figure: 507,
     percent: 553,
-    updown: 'up'
+    upDown: 'up'
   },
   {
     id: 7,
@@ -56,7 +56,7 @@ const data = [
     social: 'youtube',
     figure: 107,
     percent: 19,
-    updown: 'down'
+    upDown: 'down'
   },
   {
     id: 8,
@@ -64,7 +64,7 @@ const data = [
     social: 'youtube',
     figure: 1407,
     percent: 12,
-    updown: 'down'
+    upDown: 'down'
   }
 ]
 
@@ -78,7 +78,7 @@ const Overview = () => (
         social={item.social}
         figure={item.figure}
         percent={item.percent}
-        updown={item.updown}
+        upDown={item.upDown}
       />
     ))}
   </StyledOverview>
