@@ -61,6 +61,8 @@ const GlobalStyles = createGlobalStyle`
   .card {
     background-color: ${props => props.theme.cardBg};
     transition: .2s;
+    width: 100%;
+    max-width: 285px;
   }
 
   .card:hover {

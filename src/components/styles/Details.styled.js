@@ -1,13 +1,10 @@
 import styled from 'styled-components'
-import theme from '../../theme/theme'
 
 const StyledDetails = styled.div`
   padding: 2em;
   display: flex;
   flex-direction: column;
   gap: 1.5em;
-  width: 100%;
-  max-width: 333px;
   border-radius: .35em;
 
   div:first-child {

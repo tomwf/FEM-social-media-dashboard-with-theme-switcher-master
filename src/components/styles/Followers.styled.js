@@ -7,7 +7,7 @@ const StyledFollowers = styled.div`
   background: ${props => theme.colors[props.color]};
   padding-top: 4px;
   width: 100%;
-  max-width: 333px;
+  max-width: 285px;
 
   .container {
     display: flex;
