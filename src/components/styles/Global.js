@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import theme from '../../theme/theme'
+import themes from '../../theme/theme'
 
 const GlobalStyles = createGlobalStyle`
   :root {
@@ -21,7 +21,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h2 {
-    color: ${theme.colors.darkGrayishBlueText};
+    color: ${themes.colors.darkGrayishBlueText};
   }
 
   button {
@@ -31,9 +31,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    //background-color: ${props => props.theme.bodyBg};
     background-color: ${({theme}) => theme.bodyBg};
-    //color: ${props => props.theme.textColor};
     color: ${({theme}) => theme.textColor};
   }
 
@@ -74,16 +72,17 @@ const GlobalStyles = createGlobalStyle`
 
 
   .up {
-    color: ${theme.colors.limeGreen}
+    color: ${themes.colors.limeGreen}
   }
 
   .down {
-    color: ${theme.colors.brightRed};
+    color: ${themes.colors.brightRed};
   }
 
   .attribution {
     font-size: 11px;
-    text-align: center;
+    text-align: ce
+    nter;
   }
 
   .attribution a {
