@@ -1,34 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Social media dashboard with theme switcher solution
 
-## Getting Started
+This is a solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resource)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### The challenge
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Users should be able to:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Toggle color theme to their preference
 
-## Learn More
+### Screenshot
 
-To learn more about Next.js, take a look at the following resources:
+#### Desktop Version - Light Theme
+![](./screenshot_desktop_light.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Desktop Version - Dark Theme
+![](./screenshot_desktop_dark.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Mobile Version - Light Theme
+![](./screenshot_mobile_light.png)
 
-## Deploy on Vercel
+#### Mobile Version - Dark Theme
+![](./screenshot_desktop_dark.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
+
+### What I learned
+
+- Nextjs
+- Styled components
+- Context API
+
+### Useful resources
+
+#### Videos
+- [Learn useContext In 13 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=5LrDIWkK_Bc) - This amazing video helped me to understand how to avoid prop-drilling using Context API.
+- [Styled Components Crash Course & Project - Traversy Media](https://www.youtube.com/watch?v=02zO0hZmwnw) - This amazing video helped me to understand how to style the website using styled components.
+
+#### Blogs
+- [How To Use Themes with styled-components - Jacob D. Castro](https://jacobdcastro.com/tutorials/how-to-use-themes-with-styled-components) - This is article helped me understand how to use themes.
+
+#### Errors
+- [Warning: Prop className did not match. #7322 - GitHub](https://github.com/vercel/next.js/issues/7322) - I freaked out after merging a branch to master where all my styles are gone. The solution is to delete `.next` folder and restart `npm run dev`.
