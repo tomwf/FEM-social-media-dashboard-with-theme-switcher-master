@@ -26,20 +26,20 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop Version - Light Theme
-![](./screenshot_desktop_light.png)
+![](./public/screenshot_desktop_light.png)
 
 #### Desktop Version - Dark Theme
-![](./screenshot_desktop_dark.png)
+![](./public/screenshot_desktop_dark.png)
 
 #### Mobile Version - Light Theme
-![](./screenshot_mobile_light.png)
+![](./public/screenshot_mobile_light.png)
 
 #### Mobile Version - Dark Theme
-![](./screenshot_desktop_dark.png)
+![](./public/screenshot_desktop_dark.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Social media dashboard with theme switcher](https://fem-social-media-dashboard-with-theme-switcher-master.vercel.app/)
 
 ## My process
 
