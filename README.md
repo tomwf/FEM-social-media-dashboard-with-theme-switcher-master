@@ -60,11 +60,11 @@ Users should be able to:
 ### Useful resources
 
 #### Videos
-- [Learn useContext In 13 Minutes - Web Dev Simplified](https://www.youtube.com/watch?v=5LrDIWkK_Bc) - This amazing video helped me to understand how to avoid prop-drilling using Context API.
-- [Styled Components Crash Course & Project - Traversy Media](https://www.youtube.com/watch?v=02zO0hZmwnw) - This amazing video helped me to understand how to style the website using styled components.
+- [Learn useContext In 13 Minutes  (Web Dev Simplified)](https://www.youtube.com/watch?v=5LrDIWkK_Bc) - This amazing video helped me to understand how to avoid prop-drilling using Context API.
+- [Styled Components Crash Course & Project (Traversy Media)](https://www.youtube.com/watch?v=02zO0hZmwnw) - This amazing video helped me to understand how to style the website using styled components.
 
 #### Blogs
-- [How To Use Themes with styled-components - Jacob D. Castro](https://jacobdcastro.com/tutorials/how-to-use-themes-with-styled-components) - This article helped me understand how to use themes.
+- [How To Use Themes with styled-components (Jacob D. Castro)](https://jacobdcastro.com/tutorials/how-to-use-themes-with-styled-components) - This article helped me understand how to use themes.
 
 #### Errors
-- [Warning: Prop className did not match. #7322 - GitHub](https://github.com/vercel/next.js/issues/7322) - I freaked out after merging a branch to master where all my styles are gone. The solution is to delete `.next` folder and restart `npm run dev`.
+- [Warning: Prop className did not match. #7322 (GitHub)](https://github.com/vercel/next.js/issues/7322) - I freaked out after merging a branch to master where all my styles are gone. The solution is to delete `.next` folder and restart `npm run dev`.
